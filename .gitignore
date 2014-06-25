@@ -7,15 +7,15 @@ var client = window.location.protocol + "//" + window.location.host + "/";
 switch(client) {
 							case "http://personaliveservices.com/":
 							{
-								  break;
+							  break;
 							}
 							case "http://ratingsboost.com/":
 							{
-								  break;
+							  break;
 							}
 							default:
 							{
-										jQuery("html").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); 
+							 jQuery("html").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); 
 							}
                 } 
 
