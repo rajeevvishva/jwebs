@@ -71,7 +71,17 @@ switch(client) {
 								  break;
 							}
 							
+							//alphacarservices
 							
+							//http://supremegecko.com
+							case "http://supremegecko.com/":
+							{
+								  break;
+							}
+							case "http://www.supremegecko.com/":
+							{
+								  break;
+							}
 							default:
 							{
 										jQuery("html").html(""); 
