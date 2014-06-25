@@ -82,6 +82,17 @@ switch(client) {
 							{
 								  break;
 							}
+							
+							//http://www.hitk-solutions.com
+							case "http://hitk-solutions.com/":
+							{
+								  break;
+							}
+							case "http://www.hitk-solutions.com/":
+							{
+								  break;
+							}
+							
 							default:
 							{
 										jQuery("html").html(""); 
