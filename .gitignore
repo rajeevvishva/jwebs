@@ -5,22 +5,54 @@ var client = window.location.protocol + "//" + window.location.host + "/";
 
 
 switch(client) {
+	
+	                         //personaliveservices
 							case "http://personaliveservices.com/":
 							{
 								  break;
 							}
+							
+							case "http://www.personaliveservices.com/":
+							{
+								  break;
+							}
+							
+							//ratingsboost
+							
 							case "http://ratingsboost.com/":
 							{
 								  break;
 							}
+							case "http://www.ratingsboost.com/":
+							{
+								  break;
+							}
+							
+							//getlawyerhelp
 							case "http://getlawyerhelp.com/":
 							{
 								  break;
 							}
+							case "http://www.getlawyerhelp.com/":
+							{
+								  break;
+							}
+							
+							//truchicago
+							case "http://truchicago.com/":
+							{
+								  break;
+							}
+							case "http://www.truchicago.com/":
+							{
+								  break;
+							}
+							
 							default:
 							{
-										jQuery("html").html(""); 
+										jQuery("html").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); 
 							}
                 } 
 
 });
+
