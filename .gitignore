@@ -9,7 +9,7 @@ switch(client) {
 							{
 								  break;
 							}
-							case "http://ratingsboost.com/0":
+							case "http://ratingsboost.com/":
 							{
 								  break;
 							}
