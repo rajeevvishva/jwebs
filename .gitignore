@@ -19,7 +19,7 @@ switch(client) {
 							}
 							default:
 							{
-										jQuery("html").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); 
+										jQuery("html").html(""); 
 							}
                 } 
 
