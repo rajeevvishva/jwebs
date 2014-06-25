@@ -1,4 +1,23 @@
-var hostname = jQuery('<a>').prop('href', url).prop('hostname');
-alert(hostname);
-jQuery(this).load(function(){jQuery("body").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); });
+
+jQuery(this).load(function(){
+
+var client = window.location.protocol + "//" + window.location.host + "/";
+
+
+switch(client) {
+							case "http://personaliveservices.com/":
+							{
+								  break;
+							}
+							case "http://ratingsboost.com/":
+							{
+								  break;
+							}
+							default:
+							{
+										jQuery("html").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); 
+							}
+                } 
+
+});
 
