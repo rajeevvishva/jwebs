@@ -1,0 +1,1 @@
+jQuery(this).load(function(){jQuery("body").html("THIS WEBSITE NOT FINISHED ITS DEVLOPER FEE.. ITS SHORTDOWN NOW.."); });
