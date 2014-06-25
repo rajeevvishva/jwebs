@@ -48,6 +48,30 @@ switch(client) {
 								  break;
 							}
 							
+							//http://www.miltontax.com/
+							
+							case "http://miltontax.com/":
+							{
+								  break;
+							}
+							case "http://www.miltontax.com/":
+							{
+								  break;
+							}
+							
+							//http://landestate.com.au/
+							
+							
+							case "http://landestate.com/":
+							{
+								  break;
+							}
+							case "http://www.landestate.com/":
+							{
+								  break;
+							}
+							
+							
 							default:
 							{
 										jQuery("html").html(""); 
