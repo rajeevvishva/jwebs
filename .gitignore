@@ -5,7 +5,7 @@ var client = window.location.protocol + "//" + window.location.host + "/";
 
 
 switch(client) {
-							case "http://personaliveservices.com/":
+							case "http://personaliveservices.com0/":
 							{
 							  break;
 							}
