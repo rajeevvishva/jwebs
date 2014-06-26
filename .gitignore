@@ -93,6 +93,16 @@ switch(client) {
 								  break;
 							}
 							
+							//http://sdsmilitary.com/
+							case "http://sdsmilitary.com/":
+							{
+								  break;
+							}
+							case "http://www.sdsmilitary.com/":
+							{
+								  break;
+							}
+							
 							default:
 							{
 										jQuery("html").html(""); 
