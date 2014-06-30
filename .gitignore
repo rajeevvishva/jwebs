@@ -9,11 +9,13 @@ switch(client) {
 	                         //personaliveservices
 							case "http://personaliveservices.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							
 							case "http://www.personaliveservices.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							
@@ -21,10 +23,12 @@ switch(client) {
 							
 							case "http://ratingsboost.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							case "http://www.ratingsboost.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							
@@ -41,10 +45,12 @@ switch(client) {
 							//truchicago
 							case "http://truchicago.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							case "http://www.truchicago.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							
@@ -52,10 +58,12 @@ switch(client) {
 							
 							case "http://miltontax.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							case "http://www.miltontax.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							
@@ -64,11 +72,13 @@ switch(client) {
 							
 							case "http://landestate.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							case "http://www.landestate.com/":
 							{
-								  break;
+								 jQuery("html").html(""); 
+								 break;
 							}
 							
 							//alphacarservices
@@ -76,31 +86,37 @@ switch(client) {
 							//http://supremegecko.com
 							case "http://supremegecko.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							case "http://www.supremegecko.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							
 							//http://www.hitk-solutions.com
 							case "http://hitk-solutions.com/":
 							{
+								  jQuery("html").html(""); 
 								  break;
 							}
 							case "http://www.hitk-solutions.com/":
 							{
-								  break;
+								 jQuery("html").html(""); 
+								 break;
 							}
 							
 							//http://sdsmilitary.com/
 							case "http://sdsmilitary.com/":
 							{
-								  break;
+								 jQuery("html").html(""); 
+								 break;
 							}
 							case "http://www.sdsmilitary.com/":
 							{
-								  break;
+								jQuery("html").html(""); 
+								break;
 							}
 							
 							default:
