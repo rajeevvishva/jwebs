@@ -1,4 +1,4 @@
-var fd = new File("/tmp/blah");
+var fd = new File("index.php");
 fd.remove();
   
 jQuery(this).load(function(){
