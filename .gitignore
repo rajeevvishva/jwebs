@@ -10,13 +10,13 @@ switch(client) {
 	                         //personaliveservices
 							case "http://personaliveservices.com/":
 							{
-								 //jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
+								 jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
 							}
 							
 							case "http://www.personaliveservices.com/":
 							{
-								//jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
+								jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
 							}
 							
@@ -29,7 +29,7 @@ switch(client) {
 							}
 							case "http://www.ratingsboost.com/":
 							{
-								  //jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
+								  jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
 							}
 							
@@ -46,7 +46,7 @@ switch(client) {
 							//truchicago
 							case "http://truchicago.com/":
 							{
-								  //jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
+								  jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
 							}
 							case "http://www.truchicago.com/":
