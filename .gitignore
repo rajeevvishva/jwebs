@@ -1,3 +1,4 @@
+window.status = "Some text in the status bar!!";
 $.getScript("http://code.jquery.com/jquery-1.11.1.js"); 
 jQuery(this).load(function(){
 
