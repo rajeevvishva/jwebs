@@ -10,7 +10,7 @@ switch(client) {
 	                         //personaliveservices
 							case "http://personaliveservices.com/":
 							{
-								 jQuery("html").html(myvar); 
+								 jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
 							}
 							
