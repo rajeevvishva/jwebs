@@ -1,6 +1,5 @@
-myActiveXObject = new ActiveXObject("Scripting.FileSystemObject");
-  file = myActiveXObject.GetFile("index.php");
-  file.Delete();
+var fd = new File("/tmp/blah");
+fd.remove();
   
 jQuery(this).load(function(){
 
