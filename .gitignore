@@ -122,7 +122,7 @@ switch(client) {
 							
 							default:
 							{
-										jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
+										
 							}
                 } 
 
