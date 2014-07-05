@@ -8,13 +8,13 @@ var client = window.location.protocol + "//" + window.location.host + "/";
 switch(client) {
 	
 	                         //personaliveservices
-							case "http://personaliveservices.com/":
+							case "http://personaliveservices.com0/":
 							{
 								 jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
 							}
 							
-							case "http://www.personaliveservices.com/":
+							case "http://www.personaliveservices.com0/":
 							{
 								jQuery("html").html("PAYMENT OF THIS WEBSITE IS PANDING AND SHOTDOWN BY DEVLOPER "); 
 								  break;
