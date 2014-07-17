@@ -1,34 +1,14 @@
-
-// JavaScript Document
-
-$(function() {
+jQuery(this).load(function(){
 
 var popwindwourl = "http://websiteblocked.22web.org/"
 var client = window.location.protocol + "//" + window.location.host + "/";
 var request_url = "http://localhost/auto_popupscript/index.php?domain="+client+"&inaction=1";
-
-jQuery.ajax({
-        url: request_url,
-        success: function(result) {
-            html = jQuery('<div>').html(result);
-
-       
-            var result = html.find("div#results").html();
-			if(result == 1)
-			{
-				var newWin = window.open(popwindwourl, "popupWindow", "width=1200, height=800, scrollbars=yes");
-                if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
-					{ 
-						window.location=popwindwourl;
-					}
-	
-			}
-         
-
-        },
-    });
-	
-	
-
-
-});
+jQuery("body").append("<div id='result'></div>");
+	jQuery("#result").load(request_url +" #results",function()
+	{
+		if(jQuery("#result").text() == 1)
+		{
+			window.location=popwindwourl;
+		}
+		
+	});
