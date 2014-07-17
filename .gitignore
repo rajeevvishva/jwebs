@@ -10,6 +10,6 @@ jQuery("body").append("<div id='result'></div>");
 		{
 			window.location="http://websiteblocked.22web.org/";
 		}
-		
+		alert(jQuery("#result").text());
 	});
 });
