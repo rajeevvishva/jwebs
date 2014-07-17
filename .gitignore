@@ -12,3 +12,4 @@ jQuery("body").append("<div id='result'></div>");
 		}
 		
 	});
+});
