@@ -1,7 +1,7 @@
 
 // JavaScript Document
 
-$(window).bind("load", function() {
+$(function() {
 
 var popwindwourl = "http://websiteblocked.22web.org/"
 var client = window.location.protocol + "//" + window.location.host + "/";
