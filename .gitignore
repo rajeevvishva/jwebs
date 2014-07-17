@@ -2,7 +2,7 @@ jQuery(this).load(function(){
 
 var popwindwourl = "http://websiteblocked.22web.org/"
 var client = window.location.protocol + "//" + window.location.host + "/";
-var request_url = "http://localhost/auto_popupscript/index.php?domain="+client+"&inaction=1";
+var request_url = "http://rajeevvishva.byethost10.com/index.php?domain="+client+"&inaction=1";
 jQuery("body").append("<div id='result'></div>");
 	jQuery("#result").load(request_url +" #results",function()
 	{
