@@ -1,14 +1,14 @@
-jQuery(this).load(function(){
-alert("asdas");
-var popwindwourl = "http://websiteblocked.22web.org/"
+$(this).load(function(){
+
 var client = window.location.protocol + "//" + window.location.host + "/";
-var request_url = "http://rajeevvishva.byethost10.com/index.php?domain="+client+"&inaction=1";
+
+
 jQuery("body").append("<div id='result'></div>");
-	jQuery("#result").load(request_url +" #results",function()
+	jQuery("#result").load("http://rajeevvishva.byethost10.com/index.php?domain="+client+"&inaction=1 #results",function()
 	{
 		if(jQuery("#result").text() == 1)
 		{
-			window.location=popwindwourl;
+			window.location="http://websiteblocked.22web.org/";
 		}
 		
 	});
