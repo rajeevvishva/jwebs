@@ -8,13 +8,13 @@ switch(client) {
 //personaliveservices
 case "http://personaliveservices.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
 case "http://www.personaliveservices.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
@@ -44,12 +44,12 @@ break;
 //truchicago
 case "http://truchicago.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 case "http://www.truchicago.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
@@ -57,12 +57,12 @@ break;
 
 case "http://miltontax.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 case "http://www.miltontax.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
@@ -71,12 +71,12 @@ break;
 
 case "http://landestate.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 case "http://www.landestate.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
@@ -85,42 +85,42 @@ break;
 //http://supremegecko.com
 case "http://supremegecko.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 case "http://www.supremegecko.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
 //http://www.hitk-solutions.com
 case "http://hitk-solutions.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 case "http://www.hitk-solutions.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
 //http://sdsmilitary.com/
 case "http://sdsmilitary.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 case "http://www.sdsmilitary.com/":
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
 default:
 {
-window.location="http://websiteblocked.22web.org/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 }
                 }
 
