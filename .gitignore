@@ -8,7 +8,7 @@ switch(client) {
 //personaliveservices
 case "http://personaliveservices.com/":
 {
-//window.location="http://webmastertools.jasonwebdesign.com/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
