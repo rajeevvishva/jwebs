@@ -8,24 +8,24 @@ switch(client) {
 //personaliveservices
 case "http://personaliveservices.com/":
 {
-window.location="http://webmastertools.jasonwebdesign.com/";
+window.location="http://www.jasonwebdesign.com/";
 break;
 }
 
 case "http://www.personaliveservices.com/":
 {
-window.location="http://webmastertools.jasonwebdesign.com/";
+window.location="http://www.jasonwebdesign.com/";
 break;
 }
 
 //ratingsboost
 
-case "http://ratingsboost.com/":
+case "http://littlecaesarsmn.com/":
 {
 
 break;
 }
-case "http://www.ratingsboost.com/":
+case "http://www.littlecaesarsmn.com/":
 {
 
 break;
