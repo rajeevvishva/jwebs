@@ -12,6 +12,19 @@ window.location="http://www.jasonwebdesign.com/";
 break;
 }
 
+case "http://www.minimini.eu":
+{
+
+break;
+}
+case "http://minimini.eu":
+{
+
+break;
+}
+
+
+
 case "http://www.personaliveservices.com/":
 {
 window.location="http://www.jasonwebdesign.com/";
