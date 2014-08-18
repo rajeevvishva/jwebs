@@ -22,6 +22,16 @@ case "http://minimini.eu":
 
 break;
 }
+case "http://www.minimini.eu/":
+{
+
+break;
+}
+case "http://minimini.eu/":
+{
+
+break;
+}
 
 
 
