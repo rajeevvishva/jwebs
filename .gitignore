@@ -37,7 +37,7 @@ break;
 
 case "http://www.personaliveservices.com/":
 {
-window.location="http://www.jasonwebdesign.com/";
+window.location="http://webmastertools.jasonwebdesign.com/";
 break;
 }
 
