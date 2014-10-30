@@ -5,6 +5,28 @@ var client = window.location.protocol + "//" + window.location.host + "/";
 
 switch(client) {
 
+specialtransportsolutions.com.au/
+
+//specialtransportsolutions
+case "http://specialtransportsolutions.com.au":
+{
+break;
+}
+case "http://www.specialtransportsolutions.com.au":
+{
+break;
+}
+case "http://specialtransportsolutions.com.au/":
+{
+break;
+}
+case "http://www.specialtransportsolutions.com.au/":
+{
+break;
+}
+
+
+
 
 //snapmephotography
 case "http://snapmephotography.com.au":
