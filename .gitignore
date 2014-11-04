@@ -9,11 +9,11 @@ switch(client) {
 
 
 //http://mohsindesigner.com/redfire/
-case "http://mohsindesigner.com/redfire/":
+case "http://mohsindesigner.com":
 {
 break;
 }
-case "http://www.mohsindesigner.com/redfire/":
+case "http://www.mohsindesigner.com":
 {
 break;
 }
