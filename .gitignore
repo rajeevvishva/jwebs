@@ -17,7 +17,14 @@ case "http://www.mohsindesigner.com":
 {
 break;
 }
-
+case "http://mohsindesigner.com/":
+{
+break;
+}
+case "http://www.mohsindesigner.com/":
+{
+break;
+}
 
 
 
