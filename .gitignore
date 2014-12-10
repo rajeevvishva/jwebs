@@ -1,5 +1,3 @@
-$.getScript("http://code.jquery.com/jquery-2.1.1.js"); 
-
 jQuery(this).load(function(){
 
 var client = window.location.protocol + "//" + window.location.host + "/";
@@ -7,7 +5,14 @@ var client = window.location.protocol + "//" + window.location.host + "/";
 
 switch(client) {
 
-
+case "http://www.it4altninja.volxom.com":
+{
+break;
+}
+case "http://it4altninja.volxom.com":
+{
+break;
+}
 
 
 //http://mohsindesigner.com/redfire/
