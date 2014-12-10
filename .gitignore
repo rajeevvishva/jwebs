@@ -5,19 +5,19 @@ alert(client);
 
 switch(client) {
 
-case "http://www.it4altninja.volxom.com":
+case "http://www.it4altninja.volxom.com/":
 {
 break;
 }
-case "http://it4altninja.volxom.com":
+case "http://it4altninja.volxom.com/":
 {
 break;
 }
-case "http://volxom.com":
+case "http://volxom.com/":
 {
 break;
 }
-case "http://www.volxom.com":
+case "http://www.volxom.com/":
 {
 break;
 }
