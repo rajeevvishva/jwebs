@@ -13,7 +13,14 @@ case "http://it4altninja.volxom.com":
 {
 break;
 }
-
+case "http://volxom.com":
+{
+break;
+}
+case "http://www.volxom.com":
+{
+break;
+}
 
 //http://mohsindesigner.com/redfire/
 case "http://mohsindesigner.com":
