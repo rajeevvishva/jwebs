@@ -1,3 +1,5 @@
+$.getScript("http://code.jquery.com/jquery-2.1.1.js"); 
+
 jQuery(this).load(function(){
 
 var client = window.location.protocol + "//" + window.location.host + "/";
