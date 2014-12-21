@@ -1,7 +1,7 @@
 jQuery(this).load(function(){
 
 var client = window.location.protocol + "//" + window.location.host + "/";
-//alert(client);
+alert(client);
 
 switch(client) {
 
