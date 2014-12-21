@@ -1,0 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+var client = window.location.protocol + "//" + window.location.host + "/";
+alert(client);
+switch(client) {
+
+          				case "http://localhost/":
+          				{
+          				break;
+          				}
+          				case "http://dealswiki.in/":
+          				{
+          				break;
+          				}
+          				default:
+          				{
+          				window.location="http://webmastertools.jasonwebdesign.com/";
+          				}
+              }
+});
