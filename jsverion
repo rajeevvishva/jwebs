@@ -1,4 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
+//document.addEventListener("DOMContentLoaded", function() {
+window.onload = function()
+{
 var client = window.location.protocol + "//" + window.location.host + "/";
 alert(client);
 switch(client) {
@@ -16,4 +18,5 @@ switch(client) {
           				window.location="http://webmastertools.jasonwebdesign.com/";
           				}
               }
-});
+//});
+}
