@@ -1,8 +1,7 @@
-//document.addEventListener("DOMContentLoaded", function() {
+
 window.onload = function()
 {
 var client = window.location.protocol + "//" + window.location.host + "/";
-alert(client);
 switch(client) {
 
           				case "http://localhost/":
@@ -18,5 +17,5 @@ switch(client) {
           				window.location="http://webmastertools.jasonwebdesign.com/";
           				}
               }
-//});
+
 }
