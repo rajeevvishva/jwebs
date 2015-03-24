@@ -12,6 +12,16 @@ switch(client) {
           				{
           				break;
           				}
+          				
+          				case "http://wikideals.in/":
+          				{
+          				break;
+          				}
+          				case "http://www.wikideals.in/":
+          				{
+          				break;
+          				}
+          				
           				default:
           				{
           				window.location="http://webmastertools.jasonwebdesign.com/";
