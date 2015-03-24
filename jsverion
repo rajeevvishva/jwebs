@@ -16,12 +16,12 @@ switch(client) {
           				case "http://wikideals.in/":
           				{
           				
-          				alert("working");
+          				
           				break;
           				}
           				case "http://www.wikideals.in/":
           				{
-          				alert("working");
+          				
           				break;
           				}
           				
